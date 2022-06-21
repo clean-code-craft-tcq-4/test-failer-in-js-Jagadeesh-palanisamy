@@ -13,6 +13,6 @@ function print_color_map() {
 
 result = print_color_map();
 expect(result).equals(25);
-expect(result).equals('25');
+expect(result).equals('25'); // need to check the data type of the object 
 expect(result).equals(0);
 console.log('All is well (maybe!)');
