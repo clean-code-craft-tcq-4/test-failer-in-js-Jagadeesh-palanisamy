@@ -22,6 +22,6 @@ function alertInCelcius(farenheit) {
 
 alertInCelcius(400.5);
 alertInCelcius(303.6);
-alertInCelcius(+);
+alertInCelcius(+); //need to validate the entered field which contains only the number or not.
 console.log(`${alertFailureCount} alerts failed.`);
 console.log('All is well (maybe!)');
