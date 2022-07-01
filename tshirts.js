@@ -16,7 +16,7 @@ function sizeTest(cms) {
   }else{
      if (cms < 38) {
         return 'S';
-    } else if (cms > 38 && cms < 42) {
+    } else if (cms >= 38 && cms < 42) {
         return 'M';
     } else {
         return 'L';
@@ -27,7 +27,7 @@ function sizeTest(cms) {
 expect(size(37)).equals('S');
 expect(size(40)).equals('M');
 expect(size(43)).equals('L');
-expect(sizeTest('40')).equals('L');
+expect(sizeTest(40)).equals('L');
 expect(size(40)).equals('L');
 
 
