@@ -20,7 +20,7 @@ function printColorMapStub() {
         }
 }
 function checkColorMap(colorCode,expectMajorColor,expectedMinorColor){
-  print_color_map();
+  printColorMapStub();
   let indivdualColorSet= colorSet.get(colorCode)
   if(indivdualColorSet.majorColor===expectMajorColor && indivdualColorSet.minorColor===expectedMinorColor ){
     console.log("Success")
