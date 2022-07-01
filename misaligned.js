@@ -30,7 +30,6 @@ function checkColorMap(colorCode,expectMajorColor,expectedMinorColor){
   }
 result = print_color_map();
 expect(result).equals(25);
-expect(result).equals(0);
 checkColorMap(1,'White','Blue');
 checkColorMap(9,'Red','Brown');
 console.log('All is well (maybe!)');
